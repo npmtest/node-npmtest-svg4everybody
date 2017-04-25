@@ -1,6 +1,6 @@
 # npmtest-svg4everybody
 
-#### test coverage for  [svg4everybody (v2.1.7)](https://github.com/jonathantneal/svg4everybody#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-svg4everybody.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-svg4everybody) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-svg4everybody.svg)](https://travis-ci.org/npmtest/node-npmtest-svg4everybody)
+#### basic test coverage for  [svg4everybody (v2.1.8)](https://github.com/jonathantneal/svg4everybody#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-svg4everybody.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-svg4everybody) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-svg4everybody.svg)](https://travis-ci.org/npmtest/node-npmtest-svg4everybody)
 
 #### Use external SVG spritemaps in any browser
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-svg4everybody/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-svg4everybody/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-svg4everybody/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-svg4everybody/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-svg4everybody/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-svg4everybody/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-svg4everybody/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-svg4everybody/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-svg4everybody/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-svg4everybody/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-svg4everybody/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-svg4everybody/build/coverage.html/index.html)
 
@@ -78,13 +78,13 @@
     },
     "directories": {},
     "dist": {
-        "shasum": "bc6e3e8de25eefe537274e1a1d259139f4c9441d",
-        "tarball": "https://registry.npmjs.org/svg4everybody/-/svg4everybody-2.1.7.tgz"
+        "shasum": "c4fb648999104fc02225852f847ccfbc0b6d7586",
+        "tarball": "https://registry.npmjs.org/svg4everybody/-/svg4everybody-2.1.8.tgz"
     },
     "engines": {
         "node": ">=0.8.0"
     },
-    "gitHead": "a82807c76a8257840729c78fe29bf6baf1ff03bd",
+    "gitHead": "377d27208fcad3671ed466e9511556cb9c8b5bd8",
     "homepage": "https://github.com/jonathantneal/svg4everybody#readme",
     "keywords": [
         "contents",
@@ -130,7 +130,8 @@
         "test": "grunt test",
         "watch": "grunt build:watch"
     },
-    "version": "2.1.7"
+    "version": "2.1.8",
+    "bin": {}
 }
 ```
 
